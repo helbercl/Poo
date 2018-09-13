@@ -1,5 +1,7 @@
 package br.com.folhapagamento;
 
+import java.awt.ItemSelectable;
+import java.awt.event.ItemListener;
 import java.util.Scanner;
 
 public class AppFolhaPagamento {
@@ -12,15 +14,15 @@ public class AppFolhaPagamento {
 		Scanner entrada = new Scanner(System.in);
 		Salario salario = new Salario();
 		System.out.print("Informe as horas extras: ");
-		salario.horasExtras=entrada.nextInt();
+		salario.horasExtras = entrada.nextInt();
 		System.out.print("Informe as horas normais: ");
-		salario.horasNormais=entrada.nextInt();
+		salario.horasNormais = entrada.nextInt();
 		System.out.print("Informe Valor hora Extra: ");
-		salario.valorHora=entrada.nextDouble();
+		salario.valorHora = entrada.nextDouble();
 		System.out.print("Informe Valor hora Normal: ");
-		salario.valorHoraExtra=entrada.nextDouble();
-		
-		FolhaPagamento folha = new FolhaPagamento();		
+		salario.valorHoraExtra = entrada.nextDouble();
+
+		FolhaPagamento folha = new FolhaPagamento();
 		folha.calcularSalario(salario);
 		folha.imprimirHolerite();
 
