@@ -10,13 +10,11 @@ public class AppHeranca {
 		jogador.setNome("Helber Cardoso Lemos");
 		jogador.imprimir();
 		jogador.seAindaJoga();
-		
+
 		Pessoa pessoa = new Pessoa();
 		pessoa.setNome("Jhon");
 		pessoa.setIdade(40);
-		
-				
 
-	}
+		}
 
 }
