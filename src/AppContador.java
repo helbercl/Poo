@@ -5,7 +5,7 @@ public class AppContador {
 
 		//Contador.contador++;
 		
-		Contador.CONTADOR=5;
+		Contador.CONTADOR=Contador.ramdomValor();;
 		int valor = Contador.CONTADOR;
 		System.out.println("VALOR :" + valor);
 		
@@ -14,6 +14,8 @@ public class AppContador {
 		c.incrementar();
 		System.out.println(c.CONTADOR);
 		System.out.println(Contador.CONTADOR);
+		
+		Contador.recuperarValor();
 		
 		
 	}
