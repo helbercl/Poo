@@ -11,7 +11,7 @@ public class Carta {
 	}
 	
 	public void imprimirCarta() {
-		System.out.println("Sou " +numero+ " de " +naipe);
+		System.out.println("Sou " +numero+ " de " +naipe + " e tenho a cor "+ naipe.getCor() );
 	}
 
 }
