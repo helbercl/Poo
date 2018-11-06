@@ -2,13 +2,11 @@ package br.com.algaworks.heranca;
 
 public  class Pessoa {
 	
-	/*marcar classe com o assinador final a classe n„o pode se tornar superclasse e
-	n„o pode ser instanciada
-	modificador protected - a classe ta disponivel para as classes do mesmo pacote ou que herdem de tal classe
-	*/
+	//marcar classe com o assinador final a classe n√£o pode se tornar superclasse e
+	//n√£o pode ser instanciada
 	
-	protected String nome;
-	protected int idade;
+	private String nome;
+	private int idade;
 	
 	public int getIdade() {
 		return idade;
