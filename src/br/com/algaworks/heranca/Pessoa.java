@@ -1,6 +1,6 @@
 package br.com.algaworks.heranca;
 
-public  class Pessoa {
+public class Pessoa {
 	
 	//marcar classe com o assinador final a classe não pode se tornar superclasse e
 	//não pode ser instanciada

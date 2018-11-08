@@ -9,7 +9,7 @@ public class AppSobreposicao {
 		// TODO Auto-generated method stub
 		
 		ProdutoPerecivel pp = new ProdutoPerecivel();
-		pp.descricao="Arroz Seara";
+		pp.descricao="Arroz Tio João";
 		pp.dataValidade = new java.util.Date();
 		pp.identificar();
 		

@@ -1,6 +1,6 @@
 package br.com.algaworks.heranca;
 
-public class AppHeranca {
+public class AppHeranca  {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -15,6 +15,6 @@ public class AppHeranca {
 		pessoa.setNome("Jhon");
 		pessoa.setIdade(40);
 
-		}
+	}
 
 }

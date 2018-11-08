@@ -24,7 +24,7 @@ public class ContasPagar extends Conta {
 	public void pagar() {}
 	
 	public void imprimir() {
-		 System.out.println("Contas a pagar com descrição :" + getDescricao() + " valor R$ " + getValor() + 
-				 " para o fornecedor " +getFornecedor() + " com data de vencimento " + getDataVencimento());
+		 System.out.println("Contas a pagar com descriÃ§Ã£o :" + getDescricao() + " valor R$ " + getValor() + 
+				 " para o fornecedor " + fornecedor.getDescricao() + " com data de vencimento " + getDataVencimento());
 		}
 }
