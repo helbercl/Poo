@@ -12,7 +12,8 @@ public class Conta {
 	private Double valor;
 	private String dataVencimento;
 	private SituacaoConta situacaoConta;
-
+	
+	
 	public String getDescricao() {
 		return descricao;
 	}
@@ -44,7 +45,8 @@ public class Conta {
 	public void setSituacaoConta(SituacaoConta situacaoConta) {
 		this.situacaoConta = situacaoConta;
 	}
-
+	
+	
 	public Conta() {
 	}
 

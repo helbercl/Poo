@@ -8,6 +8,7 @@ public class AppCadastro {
 		cadastro.armazenar(pessoa);
 		
 	    cadastro.armazenar("Helber", 25);
+	    cadastro.armazenar("Marcio");
 	}
 
 }

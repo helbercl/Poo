@@ -4,8 +4,8 @@ public class CadastroPessoa {
 
 	public void cadastrar(String nome,int idade) {
 		// Salvar no banco de dados
-		
-		System.out.println("Salvando : \"" + nome + "\" com " + idade + " anos.");
+		imprimir(nome,idade);
+		//System.out.println("Salvando : \"" + nome + "\" com " + idade + " anos.");
 		
 	}
 	
@@ -21,6 +21,10 @@ public class CadastroPessoa {
 	public void armazenar(String nome) {
 		cadastrar(nome, 0);
 		
+	}
+	
+	public void imprimir (String nome,int idade) {
+		System.out.println(" A pessoa cadastrada é :" + nome + " com idade " + idade + " ..Salvando.....");
 	}
 
 	
