@@ -11,10 +11,10 @@ public class MaquinaCafe {
 	
 	public void fazerCafe(Double quantidadeAcucar) {
 		if (acucarDisponivel<quantidadeAcucar) {
-			System.out.println("NÃ£o hÃ¡ acuÃ§ar suficiente para fazer o cafÃ©.");
+			System.out.println("Não há acuçar suficiente para fazer o café.");
 		}else {
 			acucarDisponivel-=quantidadeAcucar;
-			System.out.println("Fazendo o cafÃ© com " + quantidadeAcucar + " gramas de acuÃ§ar.");
+			System.out.println("Fazendo o café com " + quantidadeAcucar + " gramas de acuçar.");
 		}
 	}
 	public Double getAcucarDisponivel() {

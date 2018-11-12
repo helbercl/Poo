@@ -7,7 +7,7 @@ package br.com.k19.exercicios;
  * @author helber
  *
  */
-public class Conta {
+public  class Conta {
 	
 	static int contador=0;
 	int numeroConta;

@@ -7,16 +7,16 @@ public class AppConta {
 		System.out.println("Contador Static/Classe :" + Conta.contador);
 		
 		Conta conta1 = new Conta();
-		System.out.println("Contador InstÃ¢ncia/Objeto :" + conta1.contador);
-		System.out.println("Numero Conta InstÃ¢ncia/Objeto :" + conta1.numeroConta);
+		System.out.println("Contador Instância/Objeto :" + conta1.contador);
+		System.out.println("Numero Conta Instância/Objeto :" + conta1.numeroConta);
 		Conta conta2 = new Conta();
-		System.out.println("Contador InstÃ¢ncia/Objeto :" + conta2.contador);
-		System.out.println("Numero Conta InstÃ¢ncia/Objeto :" + conta2.numeroConta);
+		System.out.println("Contador Instância/Objeto :" + conta2.contador);
+		System.out.println("Numero Conta Instância/Objeto :" + conta2.numeroConta);
 		
-		System.out.println("Contador Static/Classe - ApÃ³s instÃ¢ncias :" + Conta.contador);
+		System.out.println("Contador Static/Classe - Após Instância :" + Conta.contador);
 		
 		Conta.zerarContador();
-		System.out.println("Contador Static/Classe - ApÃ³s instÃ¢ncias :" + Conta.contador);
+		System.out.println("Contador Static/Classe - Após Instância :" + Conta.contador);
 
 
 	}

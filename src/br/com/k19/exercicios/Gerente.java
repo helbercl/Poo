@@ -15,7 +15,7 @@ public class Gerente {
 	public void aumentarSalario(double taxa) {
 		// aumentar salario com taxa variavel
 		salario += ((salario * taxa) / 100);
-		System.out.println("Salario é " + salario + " com taxa igual a " + taxa);
+		System.out.println("Salario R$ " + salario + " com taxa igual a " + taxa);
 	}
 
 	public String getNome() {
