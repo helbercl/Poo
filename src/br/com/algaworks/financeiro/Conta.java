@@ -7,7 +7,7 @@ package br.com.algaworks.financeiro;
  * @author Helton
  *
  */
-public class Conta {
+public abstract class Conta {
 	private String descricao;
 	private Double valor;
 	private String dataVencimento;
@@ -46,11 +46,8 @@ public class Conta {
 		this.situacaoConta = situacaoConta;
 	}
 	
-	
-	public Conta() {
-	}
 
-	public void cancelar() {
-       
-	}
+	public abstract void cancelar();
+	
+	public abstract void imprimirContasDetalhadas();
 }

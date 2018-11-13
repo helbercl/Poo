@@ -16,6 +16,6 @@ public class AppHeranca {
 		pessoa.setNome("Jhon");
 		pessoa.setIdade(40);
 
-		}
+	}
 
 }

@@ -2,7 +2,7 @@
 public class Imc {
 
 	double indice;
-	boolean abaixoDoPesoIdeal,pesoIdeal,obeso;
+	boolean abaixoDoPesoIdeal, pesoIdeal, obeso;
 	String grauObesidade;
-	
+
 }
