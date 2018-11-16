@@ -2,11 +2,13 @@ package br.com.algaworks.interfacejava;
 
 public interface Impressora {
 	
-	/*todos os metodos de uma interface é bstract
+	/*todos os metodos de uma interface é abstract
 	 * nível mais alto de abstração
-	 * contrato=  interface
+	 * contrato=interface
+	 * imprimir um documento
 	 * */
 	
-	public abstract void imprimir(Imprimivel imprimivel);
+	//public abstract 
+	void imprimir(Imprimivel imprimivel);
 
 }
