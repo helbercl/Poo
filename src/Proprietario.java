@@ -1,7 +1,7 @@
 
 public class Proprietario {
-	
-	String  nome;
+
+	String nome;
 	String cpf;
 	String logradouro;
 	String bairro;

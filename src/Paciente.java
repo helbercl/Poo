@@ -1,34 +1,32 @@
 
 public class Paciente {
 
-	double peso,altura;
+	double peso, altura;
 
-	Imc calcularIndiceMassaCorporal(){
+	Imc calcularIndiceMassaCorporal() {
 
-		Imc  imc = new Imc();	
+		Imc imc = new Imc();
 
-		double indice =peso/(altura *altura);
-		imc.indice=indice;
+		double indice = peso / (altura * altura);
+		imc.indice = indice;
 
-		if (indice <18.5) {
-			imc.abaixoDoPesoIdeal=true;
-		}else if (indice<25) {
-			imc.pesoIdeal=true;
-		}else{
-			imc.obeso=true;
-			if (indice <30) {
-				imc.grauObesidade="Acima do Peso";
-			}else if (indice <35) {
-				imc.grauObesidade="Obesidade I";
-			}else if (indice <40) {
-				imc.grauObesidade="Obesidade II";
-			}else{
-				imc.grauObesidade="Obesidade III";
+		if (indice < 18.5) {
+			imc.abaixoDoPesoIdeal = true;
+		} else if (indice < 25) {
+			imc.pesoIdeal = true;
+		} else {
+			imc.obeso = true;
+			if (indice < 30) {
+				imc.grauObesidade = "Acima do Peso";
+			} else if (indice < 35) {
+				imc.grauObesidade = "Obesidade I";
+			} else if (indice < 40) {
+				imc.grauObesidade = "Obesidade II";
+			} else {
+				imc.grauObesidade = "Obesidade III";
 			}
 		}
 		return imc;
-
-
 
 	}
 

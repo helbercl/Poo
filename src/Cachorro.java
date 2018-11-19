@@ -1,7 +1,7 @@
 
 public class Cachorro {
 
-	String nome,raca;
+	String nome, raca;
 	char sexo;
 	int idade;
 
