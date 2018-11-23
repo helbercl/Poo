@@ -21,7 +21,7 @@ public class AppPaciente {
 		System.out.println("Flag Peso Ideal :" + imcCalculado.pesoIdeal);
 		System.out.println("Flag Obeso :" + imcCalculado.obeso);
 		System.out.println("IMC : " + imcCalculado.grauObesidade);
-
+        entrada.close();
 	}
 
 }

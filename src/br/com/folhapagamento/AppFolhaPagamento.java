@@ -25,6 +25,8 @@ public class AppFolhaPagamento {
 		FolhaPagamento folha = new FolhaPagamento();
 		folha.calcularSalario(salario);
 		folha.imprimirHolerite();
+		
+		entrada.close();
 
 	}
 
