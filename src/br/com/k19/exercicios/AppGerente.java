@@ -3,7 +3,7 @@ package br.com.k19.exercicios;
 public class AppGerente {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
 		Gerente gerente = new Gerente();
 		gerente.setNome("Helber Cardoso Lemos");

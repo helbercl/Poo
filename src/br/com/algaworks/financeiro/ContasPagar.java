@@ -19,7 +19,7 @@ public class ContasPagar extends Conta {
 	}
 
 	public ContasPagar() {
-		// TODO Auto-generated constructor stub
+	
 	}
 
 	public void pagar() {

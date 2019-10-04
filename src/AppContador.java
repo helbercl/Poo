@@ -12,7 +12,7 @@ public class AppContador {
 
 		Contador c = new Contador();
 		c.incrementar();
-		System.out.println(c.CONTADOR);
+		//System.out.println(c.CONTADOR);
 		System.out.println(Contador.CONTADOR);
 
 		Contador.recuperarValor();

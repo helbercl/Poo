@@ -32,7 +32,7 @@ public class ProdutoPerecivel extends Produto {
 	}
 	@Override
 	public String converterData(Date dataAtual) {
-		// TODO Auto-generated method stub
+		// TODO converte data produtos pereciveis
 		
 		SimpleDateFormat dataAtualFormatada = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 		return dataAtualFormatada.format(dataAtual);

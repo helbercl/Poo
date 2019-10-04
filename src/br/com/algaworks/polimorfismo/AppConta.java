@@ -1,7 +1,5 @@
 package br.com.algaworks.polimorfismo;
 
-import com.sun.xml.internal.bind.v2.runtime.RuntimeUtil.ToStringAdapter;
-
 public class AppConta {
 
 	public static void main(String[] args) {

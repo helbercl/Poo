@@ -4,7 +4,7 @@ import br.com.algaworks.heranca.Pessoa;
 public class AppHeranca {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 
 		Jogador jogador = new Jogador();
 		jogador.setIdade(37);

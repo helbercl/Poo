@@ -1,7 +1,5 @@
 package br.com.folhapagamento;
 
-import java.awt.ItemSelectable;
-import java.awt.event.ItemListener;
 import java.util.Scanner;
 
 public class AppFolhaPagamento {
@@ -10,7 +8,7 @@ public class AppFolhaPagamento {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Scanner entrada = new Scanner(System.in);
 		Salario salario = new Salario();
 		System.out.print("Informe as horas extras: ");

@@ -1,7 +1,5 @@
 package br.com.k19.exercicios;
 
-import com.sun.org.apache.xalan.internal.xsltc.compiler.sym;
-
 public class Gerente {
 
 	private String nome;

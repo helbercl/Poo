@@ -3,20 +3,20 @@ package br.com.algaworks.financeiro;
 public class AppContas {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Fornecedor imobiliaria = new Fornecedor();
-		imobiliaria.setDescricao("Casa & Cia Negócios Imobiliários");
+		imobiliaria.setDescricao("Casa & Cia Negï¿½cios Imobiliï¿½rios");
 		imobiliaria.imprimir();
 		Fornecedor mercado = new Fornecedor();
-		mercado.setDescricao("Mercado do João");
+		mercado.setDescricao("Mercado do Joï¿½o");
 		mercado.imprimir();
 		Cliente atacadista = new Cliente();
-		atacadista.setDescricao("Triângulo Quadrado Atacadista");
+		atacadista.setDescricao("Triï¿½ngulo Quadrado Atacadista");
 		atacadista.imprimir();
 		atacadista.setDescricao("teste");
 		atacadista.imprimir();
 		Cliente telecom = new Cliente();
-		telecom.setDescricao("FoneNet Telecomunicações");
+		telecom.setDescricao("FoneNet Telecomunicaï¿½ï¿½es");
 		telecom.imprimir();
 
 		// instanciando contas a pagar
@@ -27,7 +27,7 @@ public class AppContas {
 		contasPagar.setDataVencimento("10/05/2012");
 		contasPagar.setFornecedor(imobiliaria);
 		contasPagar.imprimir();
-		ContasPagar contaPagar2 = new ContasPagar(mercado, "Compras do mês", 390d, "19/05/2012");
+		ContasPagar contaPagar2 = new ContasPagar(mercado, "Compras do mï¿½s", 390d, "19/05/2012");
 		contaPagar2.imprimir();
 	}
 

@@ -1,6 +1,5 @@
 package br.com.algaworks.abstrato;
 
-import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public abstract class Produto {
